@@ -152,11 +152,10 @@
 /* scrolling text promo bar */
 
 #scroll-container {
-	width:75%;
-  border: 0px solid black;
+width:75%;
 background-color: #252c26;
-  border-radius: 0px;
-  overflow: hidden;
+overflow: auto;
+max-height:30px;
 }
 
 #scroll-text {
