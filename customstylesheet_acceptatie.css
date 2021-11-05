@@ -152,8 +152,9 @@
 /* scrolling text promo bar */
 
 #scroll-container {
-  border: 3px solid black;
-  border-radius: 5px;
+  border: 0px solid black;
+background-color: #252c26;
+  border-radius: 0px;
   overflow: hidden;
 }
 
@@ -167,7 +168,10 @@
   -webkit-animation: my-animation 25s linear infinite;
   animation: my-animation 25s linear infinite;
 }
-
+#scroll-text span {
+	color: #fff;
+}
+	
 /* for Firefox */
 @-moz-keyframes my-animation {
   from { -moz-transform: translateX(100%); }
