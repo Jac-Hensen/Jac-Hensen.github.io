@@ -158,7 +158,7 @@ background-color: #252c26;
 
 #scroll-text {
   /* animation properties */
-  word-wrap: inherit;
+  word-wrap: initial;
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
