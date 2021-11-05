@@ -169,7 +169,8 @@ background-color: #252c26;
   animation: my-animation 25s linear infinite;
 }
 #scroll-text span {
-	color: #fff;
+	color: #c6bf70;
+	font-size:18px;
 }
 	
 /* for Firefox */
