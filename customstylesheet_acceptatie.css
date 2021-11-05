@@ -154,8 +154,6 @@
 #scroll-container {
 width:75%;
 background-color: #252c26;
-overflow: auto;
-max-height:30px;
 }
 
 #scroll-text {
