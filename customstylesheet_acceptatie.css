@@ -152,6 +152,7 @@
 /* scrolling text promo bar */
 
 #scroll-container {
+	word-wrap: initial;
 width:75%;
 background-color: #252c26;
 }
@@ -168,6 +169,7 @@ background-color: #252c26;
   animation: my-animation 25s linear infinite;
 }
 #scroll-text span {
+	word-wrap: initial;
 	color: #c6bf70;
 	font-size:18px;
 }
