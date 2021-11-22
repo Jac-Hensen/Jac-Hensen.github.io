@@ -190,8 +190,8 @@ background-color: #252c26;
 
   @keyframes slide-left {
   from {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
   }
   to {
     -webkit-transform: translateX(-300%);
