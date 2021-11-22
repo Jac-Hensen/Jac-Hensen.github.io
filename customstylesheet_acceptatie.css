@@ -196,6 +196,8 @@ background-color: #252c26;
             transform: translateX(-100%);
   }
 
+}
+
 @media only screen and (max-width: 767px) {
 	
 	  @keyframes slide-left {
