@@ -167,9 +167,7 @@ background-color: #252c26;
   align-items: start;
   animation: slide-left 20s linear infinite;
   background: none;  
-  -moz-animation: my-animation 25s linear infinite;
-  -webkit-animation: my-animation 25s linear infinite;
-  animation: my-animation 25s linear infinite;
+
 }
 #scroll-text span {
 	color: #c6bf70;
