@@ -156,7 +156,6 @@ display:flex;
 flex-wrap: nowrap;
 white-space: nowrap;
 width: 100%;
-margin: 20px auto;
 overflow: hidden;
 background-color: #252c26;
 }
@@ -165,18 +164,14 @@ background-color: #252c26;
   /* animation properties */
   display : flex;
   flex-shrink: 0;
-  height: 50px;
   align-items: center;
   animation: slide-left 20s linear infinite;
-  font-family: impact, sans-serif;
-  background: none;
-  
+  background: none;  
   -moz-animation: my-animation 25s linear infinite;
   -webkit-animation: my-animation 25s linear infinite;
   animation: my-animation 25s linear infinite;
 }
 #scroll-text span {
-
 	color: #c6bf70;
 	font-size:18px;
 }
