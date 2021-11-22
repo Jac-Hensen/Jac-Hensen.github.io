@@ -192,8 +192,8 @@ background-color: #252c26;
             transform: translateX(80%);
   }
   to {
-    -webkit-transform: translateX(20%);
-            transform: translateX(20%);
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
   }
 
 @keyframes my-animation {
