@@ -165,7 +165,7 @@ background-color: #252c26;
   display : flex;
   flex-shrink: 0;
   align-items: start;
-  animation: slide-left 28s linear infinite;
+  animation: slide-left 20s linear infinite;
   background: none;  
 
 }
