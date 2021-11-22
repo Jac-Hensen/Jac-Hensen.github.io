@@ -164,7 +164,7 @@ background-color: #252c26;
   /* animation properties */
   display : flex;
   flex-shrink: 0;
-  align-items: center;
+  align-items: start;
   animation: slide-left 20s linear infinite;
   background: none;  
   -moz-animation: my-animation 25s linear infinite;
