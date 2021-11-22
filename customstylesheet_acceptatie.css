@@ -152,24 +152,31 @@
 /* scrolling text promo bar */
 
 #scroll-container {
-	word-wrap: initial;
-width:75%;
+display:flex;
+flex-wrap: nowrap;
+white-space: nowrap;
+width: 100%;
+margin: 20px auto;
+overflow: hidden;
 background-color: #252c26;
 }
 
 #scroll-text {
   /* animation properties */
-  word-wrap: initial;
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
+  display : flex;
+  flex-shrink: 0;
+  height: 50px;
+  align-items: center;
+  animation: slide-left 20s linear infinite;
+  font-family: impact, sans-serif;
+  background: none;
   
   -moz-animation: my-animation 25s linear infinite;
   -webkit-animation: my-animation 25s linear infinite;
   animation: my-animation 25s linear infinite;
 }
 #scroll-text span {
-	word-wrap: initial;
+
 	color: #c6bf70;
 	font-size:18px;
 }
@@ -185,6 +192,16 @@ background-color: #252c26;
   from { -webkit-transform: translateX(100%); }
   to { -webkit-transform: translateX(-100%); }
 }
+
+  @keyframes slide-left {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-300%);
+            transform: translateX(-300%);
+  }
 
 @keyframes my-animation {
   from {
