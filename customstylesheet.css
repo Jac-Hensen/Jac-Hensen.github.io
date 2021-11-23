@@ -149,6 +149,77 @@
   flex-basis: 33.33%
 }
 
-/* nieuwe test */
-/* TEST TIM 2 */
-/* test op desktop */ 
+/* scrolling text promo bar */
+
+#scroll-container {
+display:flex;
+flex-wrap: nowrap;
+white-space: nowrap;
+width: 100%;
+overflow: hidden;
+background-color: #252c26;
+}
+
+#scroll-text {
+  /* animation properties */
+  display : flex;
+  flex-shrink: 0;
+  align-items: start;
+  animation: slide-left 20s linear infinite;
+  background: none;  
+
+}
+#scroll-text span {
+	color: #c6bf70;
+	font-size:18px;
+}
+	
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+  @keyframes slide-left {
+  from {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+	
+	  @keyframes slide-left {
+  from {
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+	}
+	  }
+	
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
