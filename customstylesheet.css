@@ -223,3 +223,11 @@ background-color: #252c26;
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
   }
+
+/* shop de look maten fix */ 
+
+.product-item .swatch-attribute-options {
+	display:none;
+	}
+	
+	
