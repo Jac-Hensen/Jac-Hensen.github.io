@@ -1,3 +1,10 @@
+/* shop de look maten fix */ 
+
+.swatch-attribute\ size {
+	display:none !important;
+	}
+	
+
 
 .block-banner.one-half {
     flex-basis: 33.333% !important;
@@ -224,9 +231,4 @@ background-color: #252c26;
     transform: translateX(-100%);
   }
 
-/* shop de look maten fix */ 
 
-.swatch-attribute.size {
-	display:none !important;
-	}
-	
