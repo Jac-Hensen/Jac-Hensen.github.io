@@ -226,7 +226,7 @@ background-color: #252c26;
 
 /* shop de look maten fix */ 
 
-.swatch-attribute size {
+.swatch-attribute.size {
 	display:none !important;
 	}
 	
