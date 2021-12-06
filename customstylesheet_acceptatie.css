@@ -1,3 +1,11 @@
+.slider_test {
+	min-height:auto;
+}
+
+.pagebuilder-slider {
+	min-height:auto;
+}
+
 
 .block-banner.one-half {
     flex-basis: 33.333% !important;
