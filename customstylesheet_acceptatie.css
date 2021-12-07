@@ -1,10 +1,10 @@
 .slider_test {
-	min-height:auto;
-	height:800px;
+	
 }
 
 .pagebuilder-slider {
-	min-height:auto;
+	background-image: url("https://www.acc-jachensen.nl/media/wysiwyg/hoofdbanner_meepakkers_desktop.jpg");
+	background-size:contain;
 }
 
 
