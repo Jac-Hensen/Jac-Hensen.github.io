@@ -1,21 +1,17 @@
-.slider_test {
-	
-}
-
-.pagebuilder-slider {
-
-}
+/* --- slider fix --- */
 
 .pagebuilder-slide-wrapper {
 	padding-top:31% !important;
 }
 
-
 @media only screen and (max-width: 767px) {
 	.pagebuilder-slide-wrapper {
-	padding-top:70% !important;
+	padding-top:86% !important;
 	}
 }	
+
+/* --- eind slider fix --- */
+
 
 .block-banner.one-half {
     flex-basis: 33.333% !important;
