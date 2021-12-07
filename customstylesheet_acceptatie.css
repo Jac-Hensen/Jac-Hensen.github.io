@@ -6,6 +6,9 @@
 
 }
 
+.pagebuilder-slide-wrapper {
+	padding-top:80% !important;
+}
 
 .block-banner.one-half {
     flex-basis: 33.333% !important;
