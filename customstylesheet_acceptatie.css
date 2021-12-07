@@ -1,8 +1,8 @@
 /* --- slider fix --- */
 
-.slick-list { width:100vw; }
+.slick-list { width:100vw; !important }
 
-.slick-slide { width:100vw; }
+.slick-slide { width:100vw; !important }
 
 .pagebuilder-slide-wrapper {
 	padding-top:35% !important;
