@@ -1,5 +1,13 @@
 /* --- slider fix --- */
 
+.pagebuilder-slide-wrapper .pagebuilder-overlay {
+	padding:0 !important;
+}
+
+.pagebuilder-slide-wrapper.pagebuilder-overlay {
+	padding:0 !important;
+}
+
 .slick-list { width:100vw; !important }
 
 .slick-slide { width:100vw; !important }
