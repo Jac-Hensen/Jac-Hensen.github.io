@@ -1,5 +1,7 @@
 /* --- slider fix --- */
 
+.pagebuilder-slide-wrapper [data-element=content] { min-height:30px !important; }
+
 .pagebuilder-slide-wrapper .pagebuilder-overlay {
 	padding:0 !important;
 }
