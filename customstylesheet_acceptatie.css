@@ -1,7 +1,7 @@
 /* --- slider fix --- */
 
 .pagebuilder-slide-wrapper {
-	padding-top:34% !important;
+	padding-top:35% !important;
 }
 
 @media only screen and (max-width: 767px) {
