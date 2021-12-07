@@ -10,6 +10,13 @@
 	padding-top:31% !important;
 }
 
+
+@media only screen and (max-width: 767px) {
+	.pagebuilder-slide-wrapper {
+	padding-top:10% !important;
+	}
+}	
+
 .block-banner.one-half {
     flex-basis: 33.333% !important;
 }
