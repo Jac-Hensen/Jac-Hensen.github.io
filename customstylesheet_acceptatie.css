@@ -8,6 +8,10 @@
   margin: auto;
 }
 
+.slideshow-background {
+	background-color:#000;
+}
+
 /* Hide the images by default */
 .mySlides {
   display: none;
