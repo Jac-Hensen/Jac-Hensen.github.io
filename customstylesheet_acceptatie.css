@@ -86,13 +86,18 @@
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .8}
-  to {opacity: 1}
+  from {opacity: .8;
+	transform: translateX(-20px);
+	}
+  to {opacity: 1;
+	transform: translateX(0px);}
 }
 
 @keyframes fade {
-  from {opacity: .8}
-  to {opacity: 1}
+  from {opacity: .8;
+	transform: translateX(-20px);}
+  to {opacity: 1;
+	transform: translateX(0px);}
 }
 	
 /* EINDE CUSTOM SLIDER */	
