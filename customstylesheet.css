@@ -6,19 +6,16 @@
 	display:flex !important ;
 }
 
-/*
-.cms-page-view .product-item-info:hover {
+
+.cms-page-view .product-item-info:hover { /*
 	border-radius: 5px;
 	box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
 	background: #fff;
 	margin: -10px -20px -20px;
 	padding: 10px 20px 20px;
 	position: relative;
-	z-index: 3
-}
-*/
-.cms-page-view .product-item-info:hover {
-	
+	z-index: 3;
+	*/
 	box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
 		border-radius: 0 0 5px 5px;
 		margin: 5px 0 0;
@@ -28,8 +25,10 @@
 		left: 0;
 		right: 0;
 		padding: 0 20px 20px
-
+	
+	
 }
+
 
 /* CUSTOM SLIDER */
 
