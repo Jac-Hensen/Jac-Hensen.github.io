@@ -101,60 +101,9 @@
 
 /* EINDE CMS PAGE FIX */
 
-/*
 
-/* SHOP THE LOOK FIX */
 
-.cms-page-view .swatch-attribute-options {
-	display:none ;
-}
-/*
-.catalogsearch-result-index .swatch-attribute-options {
-	display:none ;
-}
-*/
 
-@media only screen and (min-width: 767px) { .product-item-info:hover .swatch-attribute-options {
-	display:flex !important ; }
-}
-
-@media only screen and (max-width: 767px) {
-	.cms-page-view .product-item .tocart {
-		display:none;
-	}
-}
-/*
-@media only screen and (max-width: 767px) {
-	.catalogsearch-result-index .product-item .tocart {
-		display:none;
-	}
-}
-*/
-@media only screen and (min-width: 767px) { .cms-page-view .product-item-info:hover { 
-	border-radius: 5px;
-	box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
-	background: #fff;
-	margin: 0px -20px 46px;
-	padding: 10px 20px 20px;
-	position: relative;
-	z-index: 3;
-	}
-}
-/*
-@media only screen and (min-width: 767px) { .catalogsearch-result-index .product-item-info:hover { 
-	border-radius: 5px;
-	box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
-	background: #fff;
-	margin: 0px -20px 46px;
-	padding: 10px 20px 20px;
-	position: relative;
-	z-index: 3;
-	}
-}
-*/
-
-/* EINDE SHOP THE LOOK FIX */
-*/
 /* CUSTOM SLIDER */
 
 /* Slideshow container */
