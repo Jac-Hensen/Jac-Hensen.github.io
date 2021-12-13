@@ -1,9 +1,9 @@
 .shopdelookfix .swatch-attribute-options {
-	display:none !important;
+	display:none ;
 }
 
 .shopdelookfix .productitem:hover .swatch-attribute-options {
-	display:block !important;
+	display:block ;
 }
 
 /* CUSTOM SLIDER */
