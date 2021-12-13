@@ -1,3 +1,7 @@
+.shopdelookfix + .swatch-attribute-options {
+	display:none !important;
+}
+
 /* CUSTOM SLIDER */
 
 /* Slideshow container */
