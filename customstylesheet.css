@@ -2,6 +2,10 @@
 	display:none !important;
 }
 
+.tocart:hover .shopdelookfix .swatch-attribute-options {
+	display:block !important;
+}
+
 /* CUSTOM SLIDER */
 
 /* Slideshow container */
