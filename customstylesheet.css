@@ -88,12 +88,12 @@
 	}
 }
 /*
-@media only screen and (min-width: 767px) { .catalogsearch-result-index .product-item-info:hover { 
-	border-radius: 5px;
-	box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
+@media only screen and (max-width: 767px) { .catalogsearch-result-index .product-item-info:hover { 
+	border-radius: 0;
+	box-shadow: 0;
 	background: #fff;
-	margin: 0px -20px 46px;
-	padding: 10px 20px 20px;
+	margin: 0;
+	padding: 0;
 	position: relative;
 	z-index: 3;
 	}
