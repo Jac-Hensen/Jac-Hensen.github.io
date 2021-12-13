@@ -1,6 +1,6 @@
 /* verwijder gerelateerde zoekopdrachten */
 
-dt.block {
+dl.block {
 	display:none;
 }
 
