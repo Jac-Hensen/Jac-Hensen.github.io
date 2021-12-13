@@ -1,3 +1,52 @@
+/* CUSTOM SLIDER */
+
+/* Slideshow container */
+
+.slideshow-container {
+  max-width: 100vw;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Number text (1/3 etc) */
+.slider_numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.0s;
+  animation-name: fade;
+  animation-duration: 2.0s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .8;}
+  to {opacity: 1;}
+}
+
+@keyframes fade {
+	from {opacity: .8;}
+  to {opacity: 1;}
+}
+	
+/* EINDE CUSTOM SLIDER */	
+
+
 .block-banner.one-half {
     flex-basis: 33.333% !important;
 }
