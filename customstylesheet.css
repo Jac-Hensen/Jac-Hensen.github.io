@@ -2,8 +2,8 @@
 	display:none ;
 }
 
-.product-item-info:hover .swatch-attribute-options {
-	display:flex !important ;
+@media only screen and (min-width: 767px) { .product-item-info:hover .swatch-attribute-options {
+	display:flex !important ; }
 }
 
 @media only screen and (max-width: 767px) {
@@ -12,7 +12,7 @@
 	}
 }
 
-.cms-page-view .product-item-info:hover { 
+@media only screen and (min-width: 767px) { .cms-page-view .product-item-info:hover { 
 	border-radius: 5px;
 	box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
 	background: #fff;
@@ -20,7 +20,7 @@
 	padding: 10px 20px 20px;
 	position: relative;
 	z-index: 3;
-	
+	}
 }
 
 
