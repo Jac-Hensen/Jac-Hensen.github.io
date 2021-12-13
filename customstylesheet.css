@@ -3,7 +3,7 @@
 }
 
 .product-item-info:hover .swatch-attribute-options {
-	display:block !important ;
+	display:flex !important ;
 }
 
 /* CUSTOM SLIDER */
