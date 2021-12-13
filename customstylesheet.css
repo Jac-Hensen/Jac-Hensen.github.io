@@ -3,19 +3,21 @@
 .catalogsearch-result-index.page-layout-1column .column.main {
 	min-height: inherit;
 }
-	.abs-visually-hidden-desktop-s,
-	.catalogsearch-result-index .products-grid .product-item-info:not(:hover):not(.active) .product-item-actions-wrapper {
-		border: 0;
-		clip: rect(0, 0, 0, 0);
-		height: 1px;
-		margin: -1px;
-		overflow: hidden;
-		padding: 0;
-		position: absolute;
-		width: 1px
-	}
+
+.abs-visually-hidden-desktop-s,
+.catalogsearch-result-index .products-grid .product-item-info:not(:hover):not(.active) .product-item-actions-wrapper {
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px
+}
 	
-@media only screen and (min-width: 767px) {		.catalogsearch-result-index .products-grid .product-item-info:hover,
+@media only screen and (min-width: 767px) {
+	.catalogsearch-result-index .products-grid .product-item-info:hover,
 	.catalogsearch-result-index .products-grid .product-item-info.active {
 		border-radius: 5px;
 		box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
@@ -24,25 +26,30 @@
 		padding: 10px 20px 20px;
 		position: relative;
 		z-index: 3
-	} }
-		.catalogsearch-result-index .products-grid .product-item-actions {
-		margin-bottom: 0
 	}
-		.catalogsearch-result-index .products-grid .product-item-actions-wrapper {
-		box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
-		border-radius: 0 0 5px 5px;
-		margin: 5px 0 0;
-		background: #fff;
-		position: absolute;
-		z-index: 3;
-		left: 0;
-		right: 0;
-		padding: 0 20px 20px
-	}
-	.catalogsearch-result-index .breadcrumbs,
+}
+
+.catalogsearch-result-index .products-grid .product-item-actions {
+	margin-bottom: 0
+}
+
+.catalogsearch-result-index .products-grid .product-item-actions-wrapper {
+	box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
+	border-radius: 0 0 5px 5px;
+	margin: 5px 0 0;
+	background: #fff;
+	position: absolute;
+	z-index: 3;
+	left: 0;
+	right: 0;
+	padding: 0 20px 20px
+}
+
+.catalogsearch-result-index .breadcrumbs,
 .catalogsearch-result-index .breadcrumbs {
 	padding: 0
 }
+
 .catalogsearch-result-index .swatch-option-tooltip,
 .catalogsearch-result-index .swatch-option-tooltip {
 	display: none !important
@@ -55,11 +62,6 @@
 .cms-page-view .swatch-attribute-options {
 	display:none ;
 }
-/*
-.catalogsearch-result-index .swatch-attribute-options {
-	display:none ;
-}
-*/
 
 @media only screen and (min-width: 767px) { .product-item-info:hover .swatch-attribute-options {
 	display:flex !important ; }
@@ -70,13 +72,7 @@
 		display:none;
 	}
 }
-/*
-@media only screen and (max-width: 767px) {
-	.catalogsearch-result-index .product-item .tocart {
-		display:none;
-	}
-}
-*/
+
 @media only screen and (min-width: 767px) { .cms-page-view .product-item-info:hover { 
 	border-radius: 5px;
 	box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
@@ -101,9 +97,6 @@
 
 
 /* EINDE SHOP THE LOOK FIX */
-
-
-
 
 /* CUSTOM SLIDER */
 
