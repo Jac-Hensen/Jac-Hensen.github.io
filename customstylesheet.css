@@ -49,6 +49,59 @@
 }
 
 
+/* CMS PAGE FIX */
+
+.cms-page-view.page-layout-1column .column.main {
+	min-height: inherit
+}
+	.abs-visually-hidden-desktop-s,
+	.cms-page-view .products-grid .product-item-info:not(:hover):not(.active) .product-item-actions-wrapper {
+		border: 0;
+		clip: rect(0, 0, 0, 0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px
+	}
+	
+		.cms-page-view .products-grid .product-item-info:hover,
+	.cms-page-view .products-grid .product-item-info.active {
+		border-radius: 5px;
+		box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
+		background: #fff;
+		margin: -10px -20px -20px;
+		padding: 10px 20px 20px;
+		position: relative;
+		z-index: 3
+	}
+		.cms-page-view .products-grid .product-item-actions {
+		margin-bottom: 0
+	}
+		.cms-page-view .products-grid .product-item-actions-wrapper {
+		box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
+		border-radius: 0 0 5px 5px;
+		margin: 5px 0 0;
+		background: #fff;
+		position: absolute;
+		z-index: 3;
+		left: 0;
+		right: 0;
+		padding: 0 20px 20px
+	}
+	.cms-page-view .breadcrumbs,
+.cms-page-view .breadcrumbs {
+	padding: 0
+}
+.cms-page-view .swatch-option-tooltip,
+.cms-page-view .swatch-option-tooltip {
+	display: none !important
+}
+
+/* EINDE CMS PAGE FIX */
+
+/*
 
 /* SHOP THE LOOK FIX */
 
@@ -101,7 +154,7 @@
 */
 
 /* EINDE SHOP THE LOOK FIX */
-
+*/
 /* CUSTOM SLIDER */
 
 /* Slideshow container */
