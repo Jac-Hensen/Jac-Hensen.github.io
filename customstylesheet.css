@@ -1,3 +1,9 @@
+/* verwijder gerelateerde zoekopdrachten */
+
+dt.block {
+	display:none;
+}
+
 /* ZOEKRESULTATEN PAGINA FIX */
 
 .catalogsearch-result-index.page-layout-1column .column.main {
