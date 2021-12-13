@@ -2,7 +2,7 @@
 	display:none ;
 }
 
-.shopdelookfix .productitem:hover .swatch-attribute-options {
+.productitem:hover .swatch-attribute-options {
 	display:block ;
 }
 
