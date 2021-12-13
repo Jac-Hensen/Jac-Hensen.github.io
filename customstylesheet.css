@@ -1,7 +1,7 @@
 /* ZOEKRESULTATEN PAGINA FIX */
 
 .catalogsearch-result-index.page-layout-1column .column.main {
-	min-height: inherit
+	min-height: inherit;
 }
 	.abs-visually-hidden-desktop-s,
 	.catalogsearch-result-index .products-grid .product-item-info:not(:hover):not(.active) .product-item-actions-wrapper {
@@ -87,7 +87,7 @@
 	z-index: 3;
 	}
 }
-/*
+
 @media only screen and (max-width: 767px) { .catalogsearch-result-index .product-item-info:hover { 
 	border-radius: 0;
 	box-shadow: 0;
@@ -98,7 +98,7 @@
 	z-index: 3;
 	}
 }
-*/
+
 
 /* EINDE SHOP THE LOOK FIX */
 
