@@ -2,7 +2,7 @@
 	display:none ;
 }
 
-@media only screen and (min-width: 767px) .product-item-info:hover .swatch-attribute-options {
+.product-item-info:hover .swatch-attribute-options {
 	display:flex !important ;
 }
 
@@ -11,7 +11,7 @@
 	
 }
 
-@media only screen and (min-width: 767px) .cms-page-view .product-item-info:hover { 
+.cms-page-view .product-item-info:hover { 
 	border-radius: 5px;
 	box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
 	background: #fff;
