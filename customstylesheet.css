@@ -2,7 +2,7 @@
 	display:none ;
 }
 
-.productitem:hover .swatch-attribute-options {
+.product-item-info:hover .swatch-attribute-options {
 	display:block ;
 }
 
