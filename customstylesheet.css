@@ -6,6 +6,7 @@
 	display:flex !important ;
 }
 
+/*
 .cms-page-view .product-item-info:hover {
 	border-radius: 5px;
 	box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
@@ -15,7 +16,20 @@
 	position: relative;
 	z-index: 3
 }
+*/
+.cms-page-view .product-item-info:hover {
+	
+	box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
+		border-radius: 0 0 5px 5px;
+		margin: 5px 0 0;
+		background: #fff;
+		position: absolute;
+		z-index: 3;
+		left: 0;
+		right: 0;
+		padding: 0 20px 20px
 
+}
 
 /* CUSTOM SLIDER */
 
