@@ -77,7 +77,8 @@ $light-off-opacity: 0.4;
     &:first-child {
       margin-left: -$globe-spacing;
     }
-  
+}
+}
 
 @keyframes flash-1 { 
     0%, 100% { background: rgba(0,247,165,1);
