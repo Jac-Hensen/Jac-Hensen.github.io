@@ -20,7 +20,7 @@
   border-bottom:1px solid #f2f2f2;
 }
 
-.collapsible:active, .collapsible:hover {
+.collapsible:active, .collapsible:hover, .collapsible:focus {
   box-shadow:none;
   background-color: #fff;
   color:#c9be6d;
