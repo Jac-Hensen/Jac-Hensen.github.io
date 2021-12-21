@@ -2,6 +2,9 @@
 
 .collapsible-container {
  max-width: 800px;
+margin:auto;
+	margin-top:25px;
+	margin-bottom:25px;
 }
 
 .collapsible-container:first-child {
