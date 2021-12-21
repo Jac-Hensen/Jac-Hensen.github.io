@@ -21,6 +21,7 @@
 }
 
 .collapsible:active, .collapsible:hover {
+  box-shadow:none;
   background-color: #fff;
   color:#c9be6d;
   border-top:none;
