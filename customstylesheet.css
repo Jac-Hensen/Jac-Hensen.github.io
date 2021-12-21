@@ -18,6 +18,8 @@
 
 .collapsible.active, .collapsible:hover {
   background-color: #fff;
+  color:#252c26;
+  border-bottom:1px solid #f2f2f2;  
 }
 
 .collapsible:after {
