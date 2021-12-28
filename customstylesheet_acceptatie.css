@@ -1,4 +1,167 @@
 
+/* uitvouwbare tekst */
+
+.collapsible-container {
+ max-width: 800px;
+margin:auto;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+.collapsible-container:first-child {
+ border-top:1px solid #f2f2f2;
+ }
+
+.collapsible {
+  background-color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  border-bottom:1px solid #f2f2f2;
+}
+
+.collapsible:active, .collapsible:hover, .collapsible:focus {
+  box-shadow:none;
+  background-color: #fff;
+  color:#c9be6d;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  border-bottom:1px solid #f2f2f2;  
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.collapsible.active:after {
+  content: "\2212";
+}
+
+.collapsible-content {
+  line-height: 28px;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #fff;
+}
+
+/* einde uitvouwbare tekst */
+
+/* verwijder gerelateerde zoekopdrachten */
+
+dl.block {
+	display:none;
+}
+
+/* ZOEKRESULTATEN PAGINA FIX */
+
+.catalogsearch-result-index.page-layout-1column .column.main {
+	min-height: inherit;
+}
+
+.abs-visually-hidden-desktop-s,
+.catalogsearch-result-index .products-grid .product-item-info:not(:hover):not(.active) .product-item-actions-wrapper {
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px
+}
+	
+@media only screen and (min-width: 767px) {
+	.catalogsearch-result-index .products-grid .product-item-info:hover,
+	.catalogsearch-result-index .products-grid .product-item-info.active {
+		border-radius: 5px;
+		box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
+		background: #fff;
+		margin: -10px -20px -20px;
+		padding: 10px 20px 20px;
+		position: relative;
+		z-index: 3
+	}
+}
+
+.catalogsearch-result-index .products-grid .product-item-actions {
+	margin-bottom: 0
+}
+
+.catalogsearch-result-index .products-grid .product-item-actions-wrapper {
+	box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
+	border-radius: 0 0 5px 5px;
+	margin: 5px 0 0;
+	background: #fff;
+	position: absolute;
+	z-index: 3;
+	left: 0;
+	right: 0;
+	padding: 0 20px 20px
+}
+
+.catalogsearch-result-index .breadcrumbs,
+.catalogsearch-result-index .breadcrumbs {
+	padding: 0
+}
+
+.catalogsearch-result-index .swatch-option-tooltip,
+.catalogsearch-result-index .swatch-option-tooltip {
+	display: none !important
+}
+
+/* EINDE ZOEKRESULTATENPAGINA FIX
+
+/* SHOP THE LOOK FIX */
+
+.cms-page-view .swatch-attribute-options {
+	display:none ;
+}
+
+@media only screen and (min-width: 767px) { .product-item-info:hover .swatch-attribute-options {
+	display:flex !important ; }
+}
+
+@media only screen and (max-width: 767px) {
+	.cms-page-view .product-item .tocart {
+		display:none;
+	}
+}
+
+@media only screen and (min-width: 767px) { .cms-page-view .product-item-info:hover { 
+	border-radius: 5px;
+	box-shadow: -5px 15px 25px rgba(0, 0, 0, .3);
+	background: #fff;
+	margin: 0px -20px 46px;
+	padding: 10px 20px 20px;
+	position: relative;
+	z-index: 3;
+	}
+}
+
+@media only screen and (max-width: 767px) { .catalogsearch-result-index .product-item-info:hover { 
+	border-radius: 0;
+	box-shadow: 0;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 3;
+	}
+}
+
+
+/* EINDE SHOP THE LOOK FIX */
 
 /* CUSTOM SLIDER */
 
@@ -24,10 +187,6 @@
   top: 0;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
-}
-
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -36,8 +195,9 @@
   animation-duration: 2.0s;
 }
 
+
 @-webkit-keyframes fade {
-  from {opacity: .8;}
+  from {opacity: .8; }
   to {opacity: 1;}
 }
 
@@ -45,7 +205,8 @@
 	from {opacity: .8;}
   to {opacity: 1;}
 }
-	
+
+
 /* EINDE CUSTOM SLIDER */	
 
 
@@ -273,6 +434,3 @@ background-color: #252c26;
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
   }
-}
-
-
