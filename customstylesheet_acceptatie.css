@@ -7,11 +7,21 @@
 	box-shadow:0 2px 4px 0 rgb(0 0 0 / 15%);
         transition:box-shadow ease-out .2s;
 	margin-bottom:15px;
+	position:relative;
     }
 
 .inspiratieblok_column:hover {
             box-shadow:0 2px 4px 0 rgb(0 0 0 / 30%);
     }
+
+.inspiratieblok_button {
+	position:absolute;
+	bottom:0px;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding-bottom:0px;
+	padding-top:0px;
+}
 
 /* einde inspiratie blok homepage */
 
