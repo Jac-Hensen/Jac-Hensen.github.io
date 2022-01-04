@@ -1,12 +1,4 @@
-/* ------------------------ breedte aanpassing blog artikelen ------------------------ */
-
-.custom-blog-layout {
-	max-width: 1024px;
-}
-
-*/ ------------------------ einde breedte aanpassing blog artikelen ------------------------ */
-
-/* ------------------------ inspiratie blok homepage ------------------------ */
+/* inspiratie blok homepage */
 
 .inspiratieblok_column {
 	border-radius: 10px;
@@ -31,13 +23,13 @@
 	padding-top:0px;
 }
 
-/* ------------------------ einde inspiratie blok homepage ------------------------ */
+/* einde inspiratie blok homepage */
 
 .margintopauto {
 	margin-top:100%;
 }
 
-/* ------------------------ uitvouwbare tekst ------------------------ */
+/* uitvouwbare tekst */
 
 .collapsible-container {
  max-width: 800px;
@@ -93,17 +85,15 @@ margin:auto;
   background-color: #fff;
 }
 
-/* ------------------------ einde uitvouwbare tekst ------------------------ */
+/* einde uitvouwbare tekst */
 
-/* ------------------------ verwijder gerelateerde zoekopdrachten ------------------------ */
+/* verwijder gerelateerde zoekopdrachten */
 
 dl.block {
 	display:none;
 }
 
-/* ------------------------ einde verwijder gerelateerde zoekopdrachten ------------------------ */
-
-/* ------------------------ ZOEKRESULTATEN PAGINA FIX ------------------------ */
+/* ZOEKRESULTATEN PAGINA FIX */
 
 .catalogsearch-result-index.page-layout-1column .column.main {
 	min-height: inherit;
@@ -160,9 +150,8 @@ dl.block {
 	display: none !important
 }
 
-/* ------------------------ EINDE ZOEKRESULTATENPAGINA FIX ------------------------ */
-
-/* ------------------------ SHOP THE LOOK FIX ------------------------ */
+/* EINDE ZOEKRESULTATENPAGINA FIX
+/* SHOP THE LOOK FIX */
 
 .cms-page-view .swatch-attribute-options {
 	display:none ;
@@ -201,9 +190,9 @@ dl.block {
 }
 
 
-/* ------------------------ EINDE SHOP THE LOOK FIX ------------------------ */
+/* EINDE SHOP THE LOOK FIX */
 
-/* ------------------------ CUSTOM SLIDER ------------------------ */
+/* CUSTOM SLIDER */
 
 /* Slideshow container */
 
@@ -247,7 +236,7 @@ dl.block {
 }
 
 
-/* ------------------------ EINDE CUSTOM SLIDER ------------------------ */	
+/* EINDE CUSTOM SLIDER */	
 
 
 .block-banner.one-half {
@@ -262,7 +251,7 @@ dl.block {
   display: none !important;  /* Verbergt de compare functie */ 
 }
 
-/* ------------------------ Knoppen op de category pagina's - TR ------------------------ */
+/* Knoppen op de category pagina's - TR */
 
     .JH_subcategorieknoppen img {
         box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
@@ -310,9 +299,9 @@ dl.block {
   .JH_categorielinks { width:92%; }
 }  
  
-  /* ------------------------ Einde knoppen op de category pagina's ------------------------  */
+  /* Einde knoppen op de category pagina's - -TR */
   
-  /* ------------------------ Video overlay------------------------ */ 
+  /* Video overlay -TR */ 
   
 #overlay {
   position: absolute; 
@@ -329,9 +318,8 @@ dl.block {
   z-index: 2; 
 }
 
-    /* ------------------------ eind overlay ------------------------ /* 
-
-    /* ------------------------ start call to action over de video header ------------------------ */
+    /* eind overlay /* 
+  /* start call to action over de video header TR */
   
  
 .jh_calltoaction a {
@@ -386,7 +374,7 @@ dl.block {
 
 
 
-/* ------------------------ Einde call to action ------------------------ */ 
+/* Einde call to action */ 
 
 /* Try-out Jos (1/3 op mobiel met flex)*/
 @media all and (max-width:350px) {
@@ -401,7 +389,7 @@ dl.block {
   flex-basis: 33.33%
 }
 
-/* ------------------------ scrolling text promo bar ------------------------ */
+/* scrolling text promo bar */
 
 #scroll-container {
 display:flex;
