@@ -1,3 +1,11 @@
+/* ------------------------ breedte aanpassing blog artikelen ------------------------ */
+
+.custom-blog-layout {
+	max-width: 1024px;
+}
+
+/* ------------------------ einde breedte aanpassing blog artikelen ------------------------ */
+
 /* inspiratie blok homepage */
 
 .inspiratieblok_column {
