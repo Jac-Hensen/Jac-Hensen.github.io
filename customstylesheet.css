@@ -161,6 +161,7 @@ dl.block {
 }
 
 /* EINDE ZOEKRESULTATENPAGINA FIX
+
 /* SHOP THE LOOK FIX */
 
 .cms-page-view .swatch-attribute-options {
@@ -473,3 +474,4 @@ background-color: #252c26;
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
   }
+}
