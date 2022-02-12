@@ -1,5 +1,4 @@
-/* ------------------------  kleine slider ------------------------ */
-
+/* ------------------------  start kleine slider ------------------------ */
 
 .kleine_slider_slideshow-container {
   max-width: 1024px;
@@ -21,7 +20,7 @@
 
 .kleine_slider_mySlides img {
   		width:100%;
-	}
+}
 
 .kleine_slider_mySlides {
   width:100%;
