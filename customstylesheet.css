@@ -23,6 +23,12 @@
 	}
 }
 
+@media only screen and (max-width: 767px) {
+	.maxwidth512 {
+		display:none;
+	}
+}
+
 
 
 /* ------------------------ einde breedte aanpassing blog artikelen ------------------------ */
