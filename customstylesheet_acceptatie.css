@@ -47,7 +47,7 @@
 			transform: rotate(45deg);
 		}
 	}
-	.slide {
+	.slider_klein_slide {
 		background-color: #FFF;
 		box-sizing: border-box;
 		display: none;
