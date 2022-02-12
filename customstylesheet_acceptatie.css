@@ -7,6 +7,12 @@
   margin: auto;
 }
 
+@media only screen and (max-width: 767px) {
+	.kleine_slider_slideshow-container {
+  		max-width: 500px;
+	}
+}
+
 .kleine_slider_mySlides {
   display: none;
 }
