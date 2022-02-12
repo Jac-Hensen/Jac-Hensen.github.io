@@ -65,9 +65,13 @@
   transition: background-color 0.6s ease;
 }
 
-.kleine_slider_dot active, .kleine_slider_dot:hover {
+.kleine_slider_dot:hover {
   background-color: #717171;
 }
+
+.kleine_slider_dot .active {
+  background-color: #717171;
+}	
 
 .kleine_slider_fade {
   -webkit-animation-name: fade;
