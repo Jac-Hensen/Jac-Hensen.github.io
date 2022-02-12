@@ -1,6 +1,7 @@
 /* ------------------------ einde kleine slider ------------------------ */
 
 .slider_klein_container {
+  max-width:500px;
   border-radius: 5px;
   margin: 0 auto;
   position: relative;
