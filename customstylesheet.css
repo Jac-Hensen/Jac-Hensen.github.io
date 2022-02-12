@@ -8,7 +8,7 @@
 
 .maxwidth512 {
 	max-width: 512px;
-	marging:0 auto;
+	margin:0 auto;
 }
 
 .maxwidth512 h1 {
@@ -25,7 +25,7 @@
 
 @media only screen and (max-width: 767px) {
 	.maxwidth512 {
-		display:none;
+		display:none !important;
 	}
 }
 
