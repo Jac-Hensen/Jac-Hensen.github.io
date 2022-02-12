@@ -8,6 +8,7 @@
 
 .maxwidth512 {
 	max-width: 512px;
+	margin:0 auto;
 }
 
 /* ------------------------ einde breedte aanpassing blog artikelen ------------------------ */
