@@ -6,6 +6,10 @@
 	margin-right: auto;
 }
 
+.maxwidth512 {
+	max-width: 512px;
+}
+
 /* ------------------------ einde breedte aanpassing blog artikelen ------------------------ */
 
 /* inspiratie blok homepage */
