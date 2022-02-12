@@ -4,7 +4,6 @@
   max-width: 1024px;
   position: relative;
   margin: auto;
-  min-height:500px;
 }
 
 @media only screen and (max-width: 767px) {
