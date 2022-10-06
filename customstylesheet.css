@@ -118,6 +118,11 @@
 	margin-right: auto;
 }
 
+.custom-blog-layout p {
+	font-size:18px;
+	line-height:36px;
+}
+
 .maxwidth512 {
 	max-width: 512px;
 	margin:0 auto;
