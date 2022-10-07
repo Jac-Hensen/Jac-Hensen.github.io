@@ -141,6 +141,33 @@
 
 /* ------------------------ einde breedte aanpassing blog artikelen ------------------------ */
 
+/* inspiratie pagina */
+
+.inspiratiepagina_column {
+	border-radius: 10px;
+	box-shadow:0 2px 4px 0 rgb(0 0 0 / 15%);
+        transition:box-shadow ease-out .2s;
+	margin-bottom:15px;
+	padding-bottom:30px !important;
+	position:relative;
+	width:33% !important;
+    }
+
+.inspiratiepagina_column:hover {
+            box-shadow:0 2px 4px 0 rgb(0 0 0 / 30%);
+    }
+
+.inspiratiepagina_button {
+	position:absolute;
+	bottom:0px;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding-bottom:5px;
+	padding-top:0px;
+}
+
+/* einde inspiratie pagina */
+
 /* inspiratie blok homepage */
 
 .inspiratieblok_column {
