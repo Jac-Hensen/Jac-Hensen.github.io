@@ -640,3 +640,22 @@ background-color: #252c26;
     transform: translateX(-100%);
   }
 }
+
+/*landingspage bottom links */
+
+.landingspage_bottom_links a { 
+	color: black;
+}
+
+.landingspage_bottom_links a:link {
+text-decoration: none;
+}
+
+.landingspage_bottom_links a:visited {
+text-decoration: none;
+color: inherit;
+}
+
+.landingspage_bottom_links a:hover {
+color: #C6BF70
+}
