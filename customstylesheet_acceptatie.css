@@ -2,7 +2,7 @@
 
 @media only screen and (max-width: 767px) {
 	.winkelpagina_hide_column {
-  		display: none;
+  		display: none !important;
 	}
 }
 
