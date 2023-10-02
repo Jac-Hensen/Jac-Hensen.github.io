@@ -686,7 +686,7 @@ color: #C6BF70
     transition: background-color 0.3s ease;
 }
 
-.mijn-div:hover {
+.grijshover:hover {
     background-color: #cfccc2;
 }
 	
