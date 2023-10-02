@@ -677,3 +677,16 @@ color: inherit;
 .landingspage_bottom_links a:hover {
 color: #C6BF70
 }
+
+
+/*Grijs on-hover knop*/
+
+.grijshover {
+    background-color: #e0ded8;
+    transition: background-color 0.3s ease;
+}
+
+.mijn-div:hover {
+    background-color: #cfccc2;
+}
+	
