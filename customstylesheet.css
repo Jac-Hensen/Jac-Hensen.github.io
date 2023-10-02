@@ -680,3 +680,14 @@ color: inherit;
 color: #C6BF70
 }
 	
+
+/*Grijs on-hover knop*/
+
+.grijshover {
+    background-color: #e0ded8;
+    transition: background-color 0.3s ease;
+}
+
+.grijshover:hover {
+    background-color: #cfccc2;
+}
