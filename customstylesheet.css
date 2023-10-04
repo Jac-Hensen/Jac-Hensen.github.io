@@ -686,8 +686,8 @@ color: #C6BF70
 .grijshover {
     background-color: #e0ded8;
     transition: background-color 0.3s ease;
-    text-decoration: none;
-    color: black;
+	a{text-decoration: none;
+	  color: Black;}
 }
 
 .grijshover:hover {
