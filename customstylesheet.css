@@ -691,9 +691,3 @@ color: #C6BF70
 .grijshover:hover {
     background-color: #cfccc2;
 }
-
-/*links zonder opmaak*/
-.linkafmaak {
-	text-decoration: none;
-	color: black;
-}
