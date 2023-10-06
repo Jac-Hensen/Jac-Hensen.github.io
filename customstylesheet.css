@@ -202,7 +202,7 @@ max-width:2560px !important;
        
 }
 
-.stijltips_inspiratie .tabs-navigation a:hover {
+.stijltips_inspiratie .tabs-navigation li.tab-header:hover {
     color:#000;
     text-decoration:none;
     border-color: #C6BF70;
