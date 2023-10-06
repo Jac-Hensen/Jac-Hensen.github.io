@@ -223,7 +223,7 @@ div[data-content-type=tabs] .tabs-navigation li.tab-header {
 }
 
 .stijltips_inspiratie .tabs-navigation li.tab-header a:hover {
-    color:#000;
+    color:#000 !important;
  }
 
 .inspiratiepagina_column {
