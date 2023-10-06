@@ -164,8 +164,13 @@ max-width:2560px !important;
 
 .stijltips_inspiratie .tabs-navigation li.tab-header {
 	width: 14.14%;
+	border:0px;
+	background:#fff;
 }
 
+.stijltips_inspiratie .tabs-content {
+	border:0px;
+}
 
 
 .inspiratiepagina_column {
