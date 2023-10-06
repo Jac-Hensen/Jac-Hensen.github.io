@@ -170,6 +170,8 @@ max-width:2560px !important;
     font-size:14px;
     background:#fff;
     border-radius:3px !important;
+	border-bottom-left-radius: 3px !important;
+	border-bottom-right-radius: 3px !important;
     border: 1px solid #C6BF70 !important;
     box-shadow:0 2px 4px 0 rgb(0 0 0 / 20%);
     padding:4px 12px;
@@ -179,6 +181,11 @@ max-width:2560px !important;
     display:inline-flex;
     flex:0 0 auto;
     transition:border-color ease-out .2s, color ease-out .2s, box-shadow ease-out .2s;
+}
+
+.stijltips_inspiratie .tabs-navigation li.tab-header a {
+	color:#c9be6d !important;
+	text-decoration:none !important;
 }
 
 .stijltips_inspiratie .tabs-content {
