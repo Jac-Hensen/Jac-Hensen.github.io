@@ -163,10 +163,7 @@ max-width:2560px !important;
 /* inspiratie pagina */
 
 .stijltips_inspiratie .tabs-navigation li.tab-header {
-	width: 14.14%;
-	border:0px ;
-	background:#fff !important;
-	 margin-right:15px;
+	margin-right:15px !important;
         margin-bottom:15px;
         text-decoration:none;
         min-height:40px;
