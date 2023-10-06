@@ -185,8 +185,12 @@ max-width:2560px !important;
 
 .stijltips_inspiratie .tabs-navigation li.tab-header.ui-state-active {
 	color:#fff !important;
-	background: #c6bf70;
+	background: #c6bf70 !important;
 }
+
+.stijltips_inspiratie .tabs-navigation li.tab-header.ui-state-active a {
+	color:#fff !important;
+	}
 
 .stijltips_inspiratie .tabs-navigation li.tab-header a {
 	color:#c9be6d !important;
