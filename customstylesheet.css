@@ -183,6 +183,11 @@ max-width:2560px !important;
     transition:border-color ease-out .2s, color ease-out .2s, box-shadow ease-out .2s;
 }
 
+.stijltips_inspiratie .tabs-navigation li.tab-header .ui-state-active {
+	color:#fff !important;
+	background: #c6bf70;
+}
+
 .stijltips_inspiratie .tabs-navigation li.tab-header a {
 	color:#c9be6d !important;
 	text-decoration:none !important;
