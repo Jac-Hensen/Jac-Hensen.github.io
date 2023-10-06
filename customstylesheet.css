@@ -222,6 +222,10 @@ div[data-content-type=tabs] .tabs-navigation li.tab-header {
     box-shadow:0 2px 4px 0 rgb(0 0 0 / 30%);
 }
 
+.stijltips_inspiratie .tabs-navigation li.tab-header a:hover {
+    color:#000;
+ }
+
 .inspiratiepagina_column {
 	border-radius: 10px;
 	box-shadow:0 2px 4px 0 rgb(0 0 0 / 15%);
