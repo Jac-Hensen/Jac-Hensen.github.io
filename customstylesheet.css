@@ -182,9 +182,11 @@ max-width:2560px !important;
    	 transition:border-color ease-out .2s, color ease-out .2s, box-shadow ease-out .2s;
 }
 
-@media only screen and (max-width: 768px) .tabs-navigation {
+@media only screen and (max-width: 768px)  {
+	.tabs-navigation {
 	white-space: nowrap;
    	overflow: auto;
+	}
 }
 
 div[data-content-type=tabs] .stijltips_inspiratie .tabs-navigation li.tab-header {
