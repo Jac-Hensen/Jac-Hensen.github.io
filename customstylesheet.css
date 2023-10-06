@@ -168,7 +168,7 @@ max-width:2560px !important;
         text-decoration:none;
         min-height:40px;
     font-size:14px;
-    background:#fff;
+    background:#fff !important;
     border-radius:3px !important;
 	border-bottom-left-radius: 3px !important;
 	border-bottom-right-radius: 3px !important;
