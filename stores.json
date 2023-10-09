@@ -1,0 +1,182 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+            "geometry": {
+                "type": "Point",
+                "coordinates": [5.392124, 52.157512]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Bezoek onze winkel aan de Langestraat",
+                "name": "Jac Hensen Amersfoort",
+                "phone": "033 1234567",
+                "storeid": "01",
+                "afbeelding": "https://www.jachensen.nl/media/.renditions/wysiwyg/Winkelpagina/Amersfoort_voorgevel.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [6.664562, 52.35808]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Bezoek onze winkel in Almelo",
+                "name": "Jac Hensen Almelo",
+                "phone": "123123123",
+                "storeid": "02",
+                "afbeelding": "https://www.jachensen.nl/media/.renditions/wysiwyg/Winkelpagina/Voorkant_filiaal_jac_hensen_almelo.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [5.961415014070344, 52.21500304905593]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Bezoek onze winkel in Apeldoorn",
+                "name": "Jac Hensen Apeldoorn",
+                "phone": "123123123",
+                "storeid": "03",
+                "afbeelding": "https://www.jachensen.nl/media/.renditions/wysiwyg/Winkelpagina/Apeldoorn_voorgevel.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [6.157610607961638, 52.252964798943985]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Bezoek onze winkel in Deventer",
+                "name": "Jac Hensen Deventer",
+                "phone": "123123123",
+                "storeid": "04",
+                "afbeelding": "https://www.jachensen.nl/media/.renditions/wysiwyg/Winkelpagina/Deventer_voorgevel.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.666625781524882, 51.8134341972138]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Bezoek onze winkel in Dordrecht",
+                "name": "Jac Hensen Dordrecht",
+                "phone": "123123123",
+                "storeid": "05",
+                "afbeelding": "https://www.jachensen.nl/media/.renditions/wysiwyg/Winkelpagina/Dordrecht_voorgevel.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [5.7010654250728106, 52.05481059208853]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Bezoek onze winkel in Ede",
+                "name": "Jac Hensen Ede",
+                "phone": "123123123",
+                "storeid": "06",
+                "afbeelding": "https://www.jachensen.nl/media/.renditions/wysiwyg/Winkelpagina/Ede_voorgevel.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [6.899003553016919, 52.22819179938021]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Bezoek onze winkel in Enschede",
+                "name": "Jac Hensen Enschede",
+                "phone": "123123123",
+                "storeid": "07",
+                "afbeelding": "https://www.jachensen.nl/media/.renditions/wysiwyg/Winkelpagina/Enschede_voorgevel.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [6.7926725976077025, 52.26373794805755]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Bezoek onze winkel in Hengelo",
+                "name": "Jac Hensen Hengelo",
+                "phone": "123123123",
+                "storeid": "08",
+                "afbeelding": "https://www.jachensen.nl/media/.renditions/wysiwyg/Winkelpagina/Hengelo_voorgevel.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [5.557674596875254, 52.02933709011771]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Bezoek onze winkel in Veenendaal",
+                "name": "Jac Hensen Veenendaal",
+                "phone": "123123123",
+                "storeid": "09",
+                "afbeelding": "https://www.jachensen.nl/media/.renditions/wysiwyg/Winkelpagina/Veenendaal_voorgevel.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [5.2623535561547445, 52.09028649294977]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Bezoek onze winkel in Zeist",
+                "name": "Jac Hensen Zeist",
+                "phone": "123123123",
+                "storeid": "09",
+                "afbeelding": "https://www.jachensen.nl/media/.renditions/wysiwyg/Winkelpagina/JAc_Hensen_Zeist_gevel.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [6.211118433430023, 52.14502643909635]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "patisserie",
+                "hours": "10am - 6pm",
+                "description": "Bezoek onze winkel in Zutphen",
+                "name": "Jac Hensen Zutphen",
+                "phone": "123123123",
+                "storeid": "09",
+                "afbeelding": "https://www.jachensen.nl/media/.renditions/wysiwyg/Winkelpagina/Zutphen_voorkant.jpg"
+            }
+        }
+        
+        
+    ]
+}
