@@ -751,9 +751,10 @@ color: inherit;
 color: #C6BF70
 }
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 768px) {
 .landingspage_bottom_links .pagebuilder-column {
 	flex-basis:50%;
+}
 }
 
 /*Grijs on-hover knop*/
