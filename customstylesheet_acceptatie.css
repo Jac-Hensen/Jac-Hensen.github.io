@@ -288,9 +288,9 @@ dl.block {
 
 /* ZOEKRESULTATEN PAGINA FIX */
 
-/*.catalogsearch-result-index.page-layout-1column .column.main {
+.catalogsearch-result-index.page-layout-1column .column.main {
 	min-height: inherit;
-}*/
+}
 
 .abs-visually-hidden-desktop-s,
 .catalogsearch-result-index .products-grid .product-item-info:not(:hover):not(.active) .product-item-actions-wrapper {
